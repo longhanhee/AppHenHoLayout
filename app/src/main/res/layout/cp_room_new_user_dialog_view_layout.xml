@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/room_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8e000000">
+
+    <RelativeLayout
+        android:layout_width="294dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:background="@drawable/cp_room_new_user_bg"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/cp_new_user_close_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="34dp"
+            android:text="温馨提示"
+            android:textColor="#131313"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/text_tip1"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_marginTop="78dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="17dp"
+                android:background="@drawable/cp_room_new_user_tip_point" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="即将进入和Ta连麦密聊"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/cp_new_user_tip_link_mic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="模式；"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_tip2"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_below="@+id/text_tip1"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="17dp"
+                android:background="@drawable/cp_room_new_user_tip_point" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="点击左下角麦克风图标"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/cp_new_user_tip_mic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="可关闭麦克风；"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_tip3"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_below="@+id/text_tip2"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="17dp"
+                android:background="@drawable/cp_room_new_user_tip_point" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="点击Ta的头像可以查看更多资料；"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_tip4"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_below="@+id/text_tip3"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="17dp"
+                android:background="@drawable/cp_room_new_user_tip_point" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="点击小水瓶"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/cp_new_user_tip_bottle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="你们的心动指数；"
+                android:textColor="#131313"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
